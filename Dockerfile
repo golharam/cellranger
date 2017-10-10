@@ -12,11 +12,11 @@ MAINTAINER Ryan Golhar <ryan.golhar@bms.com>
 # Install some utilities
 RUN yum install -y \
      wget \
+     which \
      unzip
 #    file \
 #    git \
 #    sssd-client \
-#    which \
 
 # Install bcl2fastq v2.20
 RUN cd /tmp/ && \
